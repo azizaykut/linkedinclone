@@ -128,8 +128,12 @@ button.ref {
   color: white;
 }
 
-button.ref:hover {
+button .ref:hover {
   color: #5f5f5f;
+}
+
+.ref:hover i {
+  color: white;
 }
 
 .postphoto {
