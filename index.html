@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="/bootstraplinkedinclone/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -20,72 +20,68 @@
   </head>
   <body class="body">
     <!-- navbar -->
-
-    <div class="container" style="">
-
-  
-      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+    <div class="border-bottom" style="background-color: white;">
+      
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light navbarbg">
+       
       <a class="navbar-brand" href="#"
         ><i
           class="fab fa-linkedin fa-lg"
           style="color: #0a66c2; font-size: 2.4rem"
         ></i
       ></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      ></button>
+     
       <form class="form-inline">
         <input
           class="form-control searche"
           type="search"
           placeholder="Arama Yap"
-          aria-label="Search"
-        />
+          aria-label="Search" />
       </form>
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto ml-4">
-          <li class="nav-item active mr-3">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active mr-2">
             <a class="nav-link" href="#"
-              ><i class="fas fa-home fa-lg" style="color: black">
-                <div class="menutext" style="color: black">Ana Sayfa</div></i
-              >
+              ><i class="fas fa-home fa-lg h-nav" style="color: black">
+                <div class="menutext mt-2" style="color: black">Ana Sayfa</div></i>
             </a>
-          </li>
-          <li class="nav-item active mr-4">
-            <a class="nav-link" href="#"
-              ><i class="fas fa-user-friends fa-lg">
-                <div class="menutext">Ağım</div></i
-              >
-            </a>
+
           </li>
           <li class="nav-item active mr-2">
             <a class="nav-link" href="#"
-              ><i class="fas fa-briefcase fa-lg">
-                <div class="menutext">İş İlanları</div></i
+              ><i class="fas fa-user-friends fa-lg h-nav">
+                <div class="menutext mt-2">Ağım</div></i
               >
             </a>
+
           </li>
-          <li class="nav-item active mr-1">
+          <li class="nav-item active mr-2">
             <a class="nav-link" href="#"
-              ><i class="fas fa-comment-dots fa-lg">
-                <div class="menutext">Mesajlaşma</div></i
+              ><i class="fas fa-briefcase fa-lg h-nav">
+                <div class="menutext mt-2">İş İlanları</div></i
               >
             </a>
+
           </li>
-          <li class="nav-item active mr-1">
+          <li class="nav-item active mr-2">
             <a class="nav-link" href="#"
-              ><i class="fas fa-bell fa-lg">
-                <div class="menutext">Bildirimler</div></i
+              ><i class="fas fa-comment-dots fa-lg h-nav">
+                <div class="menutext mt-2">Mesajlaşma</div></i
               >
             </a>
+
           </li>
-          <li class="nav-item dropdown mt-1 mr-3 ml-3">
+          <li class="nav-item active mr-2">
+            <a class="nav-link" href="#"
+              ><i class="fas fa-bell fa-lg h-nav">
+                <div class="menutext mt-2">Bildirimler</div></i
+              >
+            </a>
+
+          </li>
+          <li class="nav-item dropdown">
             <a
               class="nav-link"
               href="#"
@@ -96,11 +92,12 @@
               aria-expanded="false"
             >
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+                src="/img/logoben.jpg"
                 style="
                   width: 25px;
                   height: 25px;
                 "
+                class="rounded-circle"
               />
               <div
                 class="menutext"
@@ -111,12 +108,12 @@
           </li>
           <li class="nav-item active border-left">
             <a class="nav-link ml-4 mr-2" href="#"
-              ><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
+              ><i class="fas fa-th fa-lg h-nav"> <div class="menutext">İş</div></i>
             </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              ><i class="fas fa-chalkboard fa-lg">
+              ><i class="fas fa-chalkboard fa-lg h-nav">
                 <div class="menutext">İş İlanı Yayınla</div></i
               >
             </a>
@@ -125,22 +122,23 @@
       </div>
     </nav>
   </div>
-    <div class="container">
+</div>
+    <div class="container mt-3">
       <div class="row">
         <!-- sol panel -->
-        <div class="col-3 mt-3">
+        <div class="col-3">
           <!-- sol panel -->
-          <div class="card" style="width: 14rem">
+          <div class="card sol-panel" style="width: 14rem">
             <div
-              class="card-header"
+              class="card-header d-flex justify-content-center"
               style="
-                background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+                background-image: url(/img/arkaplan.jpg);
                 height: 53px;
               "
             >
               <img
                 src="/img/logoben.jpg"
-                class="rounded-circle ml-5"
+                class="rounded-circle"
                 style="
                   width: 70px;
                   height: 70px;
@@ -148,8 +146,8 @@
               />
             </div>
             <div class="card-body">
-              <p class="card-title header">
-                <a href="https://www.linkedin.com/in/cengizcmataraci/" target="_blank" style="color: #212529;">Cengiz Cemal Mataracı</a>
+              <p class="card-title header mt-4 d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/azizaykut/" target="_blank" style="color: #212529;">Aziz Aykut</a>
               </p>
               <div
                 style="
@@ -161,7 +159,7 @@
               </div>
               <hr />
               <div class="card-text">
-                <div>
+                <div class="d-flex">
                   <span class="view">Profilinizi kimler görüntüledi </span
                   ><span class="float-right view mt-1" style="color: #0a66c2"
                     >447</span
