@@ -9,6 +9,6 @@ Boostrap Linkedin Clone Çalışması
 
 <div align="center">
   <a href="#">
-    <img src="" alt="ss" >
+    <img src="/img/linkedinss.jpg" alt="ss" >
   </a>
 </div>
