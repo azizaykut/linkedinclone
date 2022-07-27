@@ -3,7 +3,7 @@ Boostrap Linkedin Clone Çalışması
 
 ## Proje Arayüzü
 
-<h3 align="center"> instagram clone screenshot </h3>
+<h3 align="center"> LinkedIn clone screenshot </h3>
 <br/>
 
 
